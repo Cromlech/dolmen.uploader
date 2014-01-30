@@ -1,0 +1,10 @@
+[app:main]
+use = egg:npai.uploader#uploader
+#tmpdir = /tmp
+upload = /tmp
+namespace = npai
+
+[server:main]
+use = egg:Paste#http
+host = ${host}
+port = ${port}

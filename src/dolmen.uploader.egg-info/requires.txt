@@ -1,0 +1,4 @@
+setuptools
+WebOb
+js.jquery
+js.jqueryui

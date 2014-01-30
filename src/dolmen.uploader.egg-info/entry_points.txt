@@ -1,0 +1,7 @@
+[paste.app_factory]
+uploader = dolmen.uploader.service:upload_service
+
+[fanstatic.libraries]
+blueimp_upload = dolmen.uploader.resources.blueimp:library
+hayageek_upload = dolmen.uploader.resources.hayageek:library
+
